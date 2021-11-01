@@ -1,0 +1,39 @@
+h5 {
+  display: flex;
+  flex-direction: row;
+}
+
+h5::before, h5::after {
+  content: '';
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+h5:before {
+  margin-right: 10px
+}
+h5:after {
+  margin-left: 10px
+}
+
+.errorMsg {
+  color: red;
+  padding-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.amountTextColor {
+  color: #004b8d !important;
+  font-weight: bold;
+}
